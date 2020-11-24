@@ -1,10 +1,10 @@
 <template>
   <div>
-    loggedIn:
+    detail
     {{ $auth.loggedIn }}
     <div>
       <button class="button--green" @click="logout">logout</button>
-      <nuxt-link to="/detail">detail</nuxt-link>
+      <nuxt-link to="/">home</nuxt-link>
     </div>
   </div>
 </template>
